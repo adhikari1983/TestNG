@@ -1,0 +1,4 @@
+same name email report gets override against the same name previous report.
+basically it overrides the previous report.
+
+make sure to open current VS previous report in 2-diff window and compare

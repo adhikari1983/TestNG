@@ -1,0 +1,40 @@
+TestNG stands for
+"Next Generation Testing," and it is an open-source testing framework for Java, that is inspired by JUnit and NUnit.
+It is widely used for automating and managing test cases in Java-based applications. It offers several advanced features
+and functionalities compared to traditional  testing frameworks like JUnit.
+It is designed to make it easy to write and run tests for Java applications, whether they are unit tests or
+functional/integration tests.
+
+TestNG provides a wide range of features that go beyond what is offered by traditional testing frameworks.
+Some key features of TestNG include:
+
+Annotations:
+TestNG uses annotations to define test methods, test classes, test suites, and configuration methods. Annotations such
+as @Test, @BeforeTest, @AfterTest, etc., provide flexibility in organizing and controlling the test execution flow.
+
+Test Configuration:
+TestNG allows the configuration of test suites, which are groups of tests that can be executed together. Configuration
+methods, marked with annotations such as @BeforeSuite, @AfterSuite, @BeforeTest, @AfterTest, etc., can be used to define
+setup and teardown operations for tests.
+
+Test Dependency:
+TestNG supports test dependency management. Tests can be set up to depend on the successful execution of other tests or
+groups of tests, ensuring proper order and dependency resolution during test execution.
+
+Data-driven Testing:
+TestNG enables data-driven testing by allowing the use of various data providers, such as @DataProvider, to supply test
+data from external sources like XML, Excel, CSV, databases, etc. This allows tests to be executed with different data
+sets.
+
+Parallel Execution:
+TestNG provides built-in support for parallel test execution. It allows tests to be run in parallel on multiple threads,
+maximizing test execution efficiency and reducing overall test execution time.
+
+Reporting:
+TestNG generates detailed HTML and XML reports that provide insights into test execution results, including test case
+status, execution time, logs, and failures. These reports can be easily customized and integrated with build systems
+and Continuous Integration (CI) tools.
+
+TestNG is widely used in the Java ecosystem and is supported by various IDEs, build tools, and CI servers. It provides
+a powerful and flexible framework for testing Java applications and offers features that can enhance test organization,
+maintainability, and execution efficiency.

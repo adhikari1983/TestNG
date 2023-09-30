@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/testNg/src/test/java/class02/E3SoftAssertion.java">
+        <classes>
+            <class name="class01.Priority">
+
+                <methods>
+                    <include name="aTestCase"/>
+                    <include name="bTestCase"/>
+                    <exclude name="cTestCase"/>
+                    <include name="dTestCase"/>
+                    <include name="ddTestCase"/>
+                </methods>
+            </class>
+            <class name="class02.E2HardAssertions">
+                <methods>
+                    <include name="verifyTheErrorMessage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
